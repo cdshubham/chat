@@ -1,0 +1,30 @@
+Step1:
+Env Variables
+Create a .env file in the root and add the following
+
+NODE_ENV = development
+PORT = 5000
+MONGO_URI = <yourMongoDbUri>
+JWT_SECRET = <yourSecret>
+
+Step2:
+Install Dependencies (frontend & backend)
+npm install
+cd frontend
+npm install
+
+Step3:
+Run frontend & backend
+
+# Run frontend only
+cd frontend
+npm start 
+
+# Run backend only
+npm start
+
+Step4:
+Build & Deploy
+# Create frontend production build
+cd frontend
+npm run build

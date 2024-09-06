@@ -1,0 +1,7 @@
+Requirements:
+
+1) node_modules package
+2) ENV file
+3) mongodb atlas
+4) mongodb connection string
+5) JWT secret
